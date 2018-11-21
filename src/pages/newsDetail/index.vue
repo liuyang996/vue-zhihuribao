@@ -115,6 +115,8 @@ export default {
       this.getnewsDatail().then(() => {
             this.getStoryExtra();
         })
+        // 获取文章收藏状态。
+        this.isStar = this.$route.params.star;
         this.$route.meta.isBack = false;
         this.isFirstEnter = false;
     }
@@ -122,8 +124,7 @@ export default {
    // 此处是在该组件挂载之后执行的内容，但是在<router-view>外使用了<keep-alive>时，从该页返回到HomePage之后，这一页依然是缓存的，不会被清除，所以在HomePage点击另一条新闻进入这一页时，这一页依然会保持和第一次进入的内容一样。
   created () {
     this.isFirstEnter = true
-     // 获取文章收藏状态。
-    this.isStar = this.$route.params.star;
+   
   },
   components:{
         newsHeader:() => import('@/components/newsHeader'),
