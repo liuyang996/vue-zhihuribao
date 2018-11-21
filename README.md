@@ -8,9 +8,9 @@
 
 ## 技术栈 
 
-vue-cli脚手架，用来创建项目结构，基本配置它都已经帮我们搞定，一些额外需求另行配置即可
-vue+vue-router+vuex 全家桶当然一个都少不了
-项目中使用了不少插件：lib-flexible(适配移动端)、vue-awesome-swiper(轮播图)、better-scroll(滚动插件)、axios、moment(格式化时间)、mint-ui(就用了一个toast组件)  
+- vue-cli脚手架，用来创建项目结构，基本配置它都已经帮我们搞定，一些额外需求另行配置即可
+- vue+vue-router+vuex 全家桶当然一个都少不了
+- 项目中使用了不少插件：lib-flexible(适配移动端)、vue-awesome-swiper(轮播图)、better-scroll(滚动插件)、axios、moment(格式化时间)、mint-ui(就用了一个toast组件)  
 
 ## 截图 
 
